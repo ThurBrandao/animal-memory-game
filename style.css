@@ -35,8 +35,8 @@ body {
 }
 .card-container {
   position: relative;
-  width: 5em;
-  height: 5em;
+  width: 6.25em;
+  height: 6.25em;
   cursor: pointer;
 }
 .card-before,
@@ -64,7 +64,9 @@ body {
 .card-after img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ajusta a imagem para cobrir o espaço do cartão */
+  object-fit: contain;
+  padding: 0.2em;
+  display: block;
   border-radius: 0.3em; /* Mantém bordas arredondadas */
 }
 .card-container.flipped .card-before {
@@ -152,6 +154,8 @@ button {
 
     .card-after img {
     border-radius: 0.2em;
+    width: 4.5em;
+    height: 4.5em;
   }
 
   button {
@@ -184,6 +188,8 @@ button {
   }
 
     .card-after img {
+    width: 4em;
+    height: 4em;
     border-radius: 0.2em;
   }
 
