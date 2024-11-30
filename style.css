@@ -147,8 +147,8 @@ button {
   }
 
     .card-after img {
-    width: 75%
-    height: 75%
+    width: 75%;
+    height: 75%;
   }
   
   .card-before {
@@ -176,12 +176,12 @@ button {
   }
 
   .card-container {
-    width: 3.5em;
-    height: 3.5em;
+    width: 4em;
+    height: 4em;
   }
   .card-after img {
-    width: 75%
-    height: 75%
+    width: 75%;
+    height: 75%;
   }
 
   .card-before {
