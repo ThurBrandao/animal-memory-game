@@ -7,11 +7,10 @@
 body {
   background-image: url(background.jpg);
 }
-/* Estilo principal */
 .wrapper {
-  width: 100%;
-  max-width: 26.87em;
-  padding: 2em;
+  box-sizing: content-box;
+  width: 26.87em;
+  padding: 2.5em 3em;
   background-color: #ffffffbd;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -24,7 +23,7 @@ body {
   position: relative;
   width: 100%;
   display: grid;
-  gap: 0.5em;
+  gap: 0.6em;
 }
 .stats-container {
   text-align: right;
@@ -35,8 +34,8 @@ body {
 }
 .card-container {
   position: relative;
-  width: 5em;
-  height: 5em;
+  width: 6.25em;
+  height: 6.25em;
   cursor: pointer;
 }
 .card-before,
@@ -81,8 +80,7 @@ body {
 button {
   border: none;
   border-radius: 0.3em;
-  padding: 1em 1.2em;
-  font-size: 1em;
+  padding: 1em 1.5em;
   cursor: pointer;
 }
 #stop {
@@ -109,7 +107,6 @@ button {
   font-size: 1.8em;
   margin: 0.6em 0 1em 0;
 }
-
 .game-help {
   background-color: #1f7a17;
   color: #ffffff;
@@ -123,66 +120,4 @@ button {
 
 #learn-more:hover {
   background-color: #0056b3;
-}
-
-@media (max-width: 768px) {
-  .wrapper {
-    padding: 1.5em;
-    border-radius: 0.4em;
-  }
-
-  .game-container {
-    gap: 0.4em;
-  }
-
-  .card-container {
-    width: 4em;
-    height: 4em;
-  }
-
-  .card-before {
-    font-size: 1.8em;
-  }
-
-  button {
-    padding: 0.8em 1em;
-    font-size: 0.9em;
-  }
-
-  #stop {
-    font-size: 1em;
-  }
-}
-
-@media (max-width: 480px) {
-  .wrapper {
-    width: 90%;
-    padding: 1em;
-  }
-
-  .game-container {
-    gap: 0.3em;
-  }
-
-  .card-container {
-    width: 3em;
-    height: 3em;
-  }
-
-  .card-before {
-    font-size: 1.6em;
-  }
-
-  button {
-    padding: 0.6em 0.8em;
-    font-size: 0.8em;
-  }
-
-  #stop {
-    font-size: 0.9em;
-  }
-
-  .controls-container {
-    padding: 1em;
-  }
 }
