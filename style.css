@@ -35,8 +35,8 @@ body {
 }
 .card-container {
   position: relative;
-  width: 4em;
-  height: 4em;
+  width: 5em;
+  height: 5em;
   cursor: pointer;
 }
 .card-before,
@@ -60,14 +60,6 @@ body {
 .card-after {
   background-color: #ffffff;
   transform: rotateY(180deg);
-}
-.card-after img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  padding: 0.2em;
-  display: block;
-  border-radius: 0.3em; /* Mantém bordas arredondadas */
 }
 .card-container.flipped .card-before {
   transform: rotateY(180deg);
@@ -144,18 +136,12 @@ button {
   }
 
   .card-container {
-    width: 4.5em;
-    height: 4.5em;
+    width: 4em;
+    height: 4em;
   }
 
   .card-before {
     font-size: 1.8em;
-  }
-
-    .card-after img {
-    border-radius: 0.2em;
-    width: 4.5em;
-    height: 4.5em;
   }
 
   button {
@@ -179,18 +165,12 @@ button {
   }
 
   .card-container {
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
   }
 
   .card-before {
     font-size: 1.6em;
-  }
-
-    .card-after img {
-    width: 4em;
-    height: 4em;
-    border-radius: 0.2em;
   }
 
   button {
