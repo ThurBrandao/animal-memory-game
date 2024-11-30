@@ -38,6 +38,16 @@ body {
   height: 6.25em;
   cursor: pointer;
 }
+
+.card-after img {
+  max-width: 100%; /* Garante que a largura máxima da imagem seja igual à do cartão */
+  max-height: 100%; /* Garante que a altura máxima da imagem seja igual à do cartão */
+  width: auto; /* Mantém a proporção da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: auto; /* Centraliza a imagem dentro do cartão */
+  display: block; /* Remove comportamento inline */
+}
+
 .card-before,
 .card-after {
   position: absolute;
@@ -120,4 +130,18 @@ button {
 
 #learn-more:hover {
   background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    width: 4.5em; /* Reduz tamanho do cartão */
+    height: 4.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    width: 3.5em; /* Mais reduzido em telas pequenas */
+    height: 3.5em;
+  }
 }
