@@ -131,17 +131,73 @@ button {
 #learn-more:hover {
   background-color: #0056b3;
 }
-
 @media (max-width: 768px) {
+  .wrapper {
+    padding: 1.5em;
+    border-radius: 0.4em;
+  }
+
+  .game-container {
+    gap: 0.4em;
+  }
+
   .card-container {
-    width: 4.5em; /* Reduz tamanho do cartão */
+    width: 4.5em;
     height: 4.5em;
+  }
+
+    .card-after img {
+    width: 75%
+    height: 75%
+  }
+  
+  .card-before {
+    font-size: 1.8em;
+  }
+
+  button {
+    padding: 0.8em 1em;
+    font-size: 0.9em;
+  }
+
+  #stop {
+    font-size: 1em;
   }
 }
 
 @media (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+    padding: 1em;
+  }
+
+  .game-container {
+    gap: 0.3em;
+  }
+
   .card-container {
-    width: 3.5em; /* Mais reduzido em telas pequenas */
+    width: 3.5em;
     height: 3.5em;
+  }
+  .card-after img {
+    width: 75%
+    height: 75%
+  }
+
+  .card-before {
+    font-size: 1.6em;
+  }
+
+  button {
+    padding: 0.6em 0.8em;
+    font-size: 0.8em;
+  }
+
+  #stop {
+    font-size: 0.9em;
+  }
+
+  .controls-container {
+    padding: 1em;
   }
 }
